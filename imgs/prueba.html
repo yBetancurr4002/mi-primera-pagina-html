@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer proyecto html</title>
+  </head>
+  <body>
+    <figure>
+      <img src="https://images.pexels.com/photos/34889490/pexels-photo-34889490.jpeg" alt="foto-mujer-joven" width="400" height="300">
+      <figcaption>Mujer joven vestida de blanco</figcaption>
+    </figure>
+
+    <div id="img-mujer-blanco">
+      <img src="https://images.pexels.com/photos/34889490/pexels-photo-34889490.jpeg" alt="foto-mujer-joven" width="400" height="300">
+      <p>Mujer joven vestida de blanco</p>
+    </div>
+    
+    <div id="video-iframe">
+
+      <h2>Nuevos videos</h2>
+
+      <iframe width="600" height="480" src="https://www.youtube.com/embed/dn5tt2W8tlE" title="El mayor robo del siglo en Github" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div id="tablas">
+      <button>Nuevo estudiante</button>
+      <h2>Tabla de ejemplo - CRUD</h2>
+      <table id="tbl-estudiantes" border="1">
+        <thead>
+          <tr>
+            <th>Nombres</th>
+            <th>Correo</th>
+            <th>Telefono</th>
+            <th>Opciones</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>darwing Mosquera Perez</td>
+            <td>darwing.mosquera@correo.com</td>
+            <td>12354687654</td>
+            <td>
+              <button>Editar</button>
+              <button>Eliminar</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Yamile Yepes</td>
+            <td>Yamile.Yepes@correo.com</td>
+            <td>12354687654</td>
+            <td>
+              <button>Editar</button>
+              <button>Eliminar</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Miguel Martin</td>
+            <td>Miguel Martin@correo.com</td>
+            <td>12354687654</td>
+            <td>
+              <button>Editar</button>
+              <button>Eliminar</button>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Esta es una tabla de prueba</td>
+          </tr>
+      </table>
+    </div>
+
+    <div id="Formularios">
+
+      <h2>Form de ejemplo</h2>
+      <form action="#" method="post">
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" required><br><br>
+        <input type="password" id="nombres" name="nombres" required minlength="3" maxlength="8"><br><br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="telefono">Telefono:</label>
+        <input type="text" id="telefono" name="telefono" required><br><br>
+
+        <label for="color">¿Cuál es tu color favorito?</label>
+        <input type="color" id="color" name="color">
+
+        <label for="txtLargo">¿Cuál es tu color favorito?</label>
+        <textarea name="txtLargo" id="txtArea">Texto largo</textarea>
+
+        <input type="submit" value="Enviar">
+
+    </div>
+  </body>
+</html>
