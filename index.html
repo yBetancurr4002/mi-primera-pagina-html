@@ -9,6 +9,8 @@
   <meta name="description" content="Este es el proyecto inicial para el curso de Java de la Universidad de Antioquia">
   <meta name="keywords" content="Java, UdeA, Universidad de Antioquia, Programación, Curso Java">
   <meta name="author" content="Grupo 1 Java-UdeA">
+  <link rel="stylesheet" href="./css/style.css">
+  <style></style>
 </head>
 <body>
   
@@ -21,44 +23,45 @@
       </figcaption>
     </figure>
    </header>
-   <h1>
-    Bienvenidos a nuestro portal de estudiantes - Java UdeA
+   
+  <h1 id="main-title">
+      Bienvenidos a nuestro portal de estudiantes - Java UdeA
    </h1>
-
    <nav>
     <!-- Llenaremos nuestro menú de navegación con una lista desordenada UL -->
     <ul>
-      <li><a href="#about-us">Sobre nosotros</a></li>
-      <li><a href="#events">Eventos</a></li>
-      <li><a href="./views/projects.html">Proyectos</a></li>
-      <li><a href="./views/contact.html">Contáctanos</a></li>
+      <li class="clase-item-lista"><a href="#about-us">Sobre nosotros</a></li>
+      <li class="clase-item-lista"><a href="#events">Eventos</a></li>
+      <li class="clase-item-lista"><a href="./views/projects.html">Proyectos</a></li>
+      <li class="clase-item-lista"><a href="./views/contact.html">Contáctanos</a></li>
     </ul>
 
     <div class="login-container">
       
-      <button type="button">
+      <button type="button" id="btn-login">
         Iniciar Sesión
       </button>
     </div>
    </nav>
 
-   <img src="https://images.pexels.com/photos/34948748/pexels-photo-34948748.jpeg" alt="">
-  <!-- MAIN DEL SITIO -->
+  
+
+   
 
   <!-- SECCION SOBRE nosotros -->
    <section id="about-us">
     <h2>¿Quiénes somos?</h2>
 
     <p> Somos un grupo heterogeneo de personas interesadas en la tecnología y poder crear soluciones con ella. </p>
-    <p> El <span>Grupo 1 de Lenguaje de programación JavaScript-Java</span> se destaca por su alto nivel de compromiso y su intención de querer agregar valor a la sociedad, desde soluciones basadas en software, con tecnologías del ecosistema Java y Javascript.</p>
+    <p> El <span class="span-class">Grupo 1 de Lenguaje de programación JavaScript-Java</span> se destaca por su alto nivel de compromiso y su intención de querer agregar valor a la sociedad, desde soluciones basadas en software, con tecnologías del ecosistema Java y Javascript.</p>
 
     <figure>
       <img src="./imgs/java.gif" alt="gif-java-udea" width="300" height="200">
-      <figcaption>Con <span>java</span> creamos soluciones de consola y desarrollo web, que se adaptan a las dinámicas actuales del mercado.</figcaption>
+      <figcaption>Con <span class="span-class">java</span> creamos soluciones de consola y desarrollo web, que se adaptan a las dinámicas actuales del mercado.</figcaption>
     </figure>
     <figure>
       <img src="./imgs/JS.jpg" alt="gif-js-udea" width="300" height="200">
-      <figcaption>Con <span>javascript</span> creamos soluciones de frontend para desarrollo web, que se adaptan a las dinámicas actuales del mercado.</figcaption>
+      <figcaption>Con <span class="span-class">javascript</span> creamos soluciones de frontend para desarrollo web, que se adaptan a las dinámicas actuales del mercado.</figcaption>
     </figure>
    </section>
 
@@ -93,6 +96,8 @@
       </dd>
     </dl>
    </section>
+
+   
 
   <!-- FOOTER DEL SITIO -->
    <footer>
